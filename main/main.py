@@ -13,9 +13,3 @@ class VoiceClient(discord.VoiceClient):
         await channel.connect()
 
 
-def main():
-    intents = discord.Intents.default()
-    intents.message_content = True
-
-    client = VoiceClient(intents=intents)
-    client.run('MTE2Mjg2NDU1MDg1NzY4NzEyMA.Gr866k.LHM5zQrUANWx92g-mUIAHRIK1LMYKIo4lSdA8E')
