@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tailomusic"
+version = "0.1.0"
+description = ""
+authors = ["Vyacheslav Molotkov <tykvagdety13@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = {extras = ["voice"], version = "^2.3.2"}
+yandex-music = "^2.1.1"
+httpx = "^0.25.0"
+xmltodict = "^0.13.0"
+pydantic = "^2.4.2"
+pydantic-settings = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
